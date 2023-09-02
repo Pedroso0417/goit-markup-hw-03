@@ -255,9 +255,6 @@ ul {
 .hero-button:hover {
   background-color: var(--ocean);
 }
-.section {
-  padding: 120px 0;
-}
 .meaning-list {
   /* padding-top: 120px; */
   display: flex;
@@ -305,27 +302,26 @@ ul {
   text-transform: capitalize;
   color: var(--navyblue, #2e2f42);
 }
-.project-text-wrapper{
+.project-text-wrapper {
   padding: 32px 16px;
-  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
 }
 
 /* section#1 */
 .project-title {
   /* padding-top: 32px;
-  padding-bottom: 16px; */
+  gap: 16px; */
   font-size: 20px;
   font-weight: 500;
   color: var(--navyblue, #2e2f42);
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 24px; /* 120%
+  letter-spacing: 0.4px; */
 }
 .project-discription {
   /* padding-bottom: 80px; */
   color: var(--slate, #434455);
-  font-size: 16px;
-  font-style: normal;
+  margin-top: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -466,10 +462,28 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
-  /* margin-left: 156px;
+  margin-bottom: 48px;
+}
+/* .project-item {
+  margin-bottom: 48px;
+} */
+/* margin-left: 156px;
   margin-right: 156px;
 
-}
+
 /* .banking-container {
   gap: 24px;
 } */
+.section-button {
+  padding: 0;
+  padding-top: 96px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.section-project {
+  /* margin-top: 48px;
+  margin-bottom: 48px; */
+  background: var(--WHITE, #fff);
+}
+.section-item {
+  padding-top: 0;
+}
