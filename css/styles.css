@@ -462,28 +462,12 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 48px 24px;
-  margin-bottom: 48px;
 }
-/* .project-item {
-  margin-bottom: 48px;
-} */
-/* margin-left: 156px;
-  margin-right: 156px;
-
-
-/* .banking-container {
-  gap: 24px;
-} */
+.project-item {
+  background: var(--WHITE, #fff);
+}
 .section-button {
   padding: 0;
   padding-top: 96px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-}
-.section-project {
-  /* margin-top: 48px;
-  margin-bottom: 48px; */
-  background: var(--WHITE, #fff);
-}
-.section-item {
-  padding-top: 0;
 }
