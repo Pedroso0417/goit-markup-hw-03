@@ -285,6 +285,7 @@ ul {
 .section {
   padding: 120px 0;
 }
+
 .section-no-top-padding {
   padding-top: 0;
 }
@@ -466,8 +467,8 @@ ul {
 .project-item {
   background: var(--WHITE, #fff);
 }
-.section-button {
+/* .section-button {
   padding: 0;
   padding-top: 96px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-}
+} */
